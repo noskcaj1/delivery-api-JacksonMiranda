@@ -1,3 +1,3 @@
 # Delivery API
 
-API de entrega criada para o projeto. íº€
+API de entrega criada para o projeto. :rocket:
