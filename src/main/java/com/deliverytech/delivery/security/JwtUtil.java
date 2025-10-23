@@ -49,8 +49,9 @@ public class JwtUtil {
             return null; // Token inválido
         }
     }
-    
-    // Extrai o email (subject) do token
+    /*Metodo - Para chamar o validarToken
+     Extrai o email (subject) do token
+    */
     public String getEmailFromToken(String token) {
         Claims claims = validarToken(token);
         return claims != null ? claims.getSubject() : null;
