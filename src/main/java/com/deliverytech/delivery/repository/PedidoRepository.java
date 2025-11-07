@@ -2,7 +2,7 @@ package com.deliverytech.delivery.repository;
 
 import com.deliverytech.delivery.model.Pedido;
 import com.deliverytech.delivery.model.StatusPedido;
-import com.deliverytech.delivery.projection.RelatorioVendas;
+//import com.deliverytech.delivery.projection.RelatorioVendas;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
